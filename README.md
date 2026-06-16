@@ -1,5 +1,5 @@
 To the best of my knowledge GTK4 does not have an easy configuration tool to set GTK4 Themes so I rewrote 
-[[https://github.com/odziom91/libadwaita-theme-changer/blob/main/libadwaita-tc.py]]
+https://github.com/odziom91/libadwaita-theme-changer/blob/main/libadwaita-tc.py
 since it does not appear to be actively maintained.
 
 Usage as follows:

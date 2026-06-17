@@ -34,11 +34,11 @@ def uninstall_theme(gtkconfig):
     return
 
 def install_theme(gtktheme, gtkconfig):
-        print(f'\n***\nSetting new theme!\n***\n')
-        sp.run(["ln", "-s", gtktheme.gtk_css, gtkconfig.gtk_css])
-        sp.run(["ln", "-s", gtktheme.gtk_css_dark, gtkconfig.gtk_css_dark])
-        sp.run(["ln", "-s", gtktheme.gtk_assets, gtkconfig.gtk_assets])
-        sp.run(["ln", "-s", gtktheme.config_assets,gtkconfig.config_assets])
+    print(f'\n***\nSetting new theme!\n***\n')
+    sp.run(["ln", "-s", gtktheme.gtk_css, gtkconfig.gtk_css])
+    sp.run(["ln", "-s", gtktheme.gtk_css_dark, gtkconfig.gtk_css_dark])
+    sp.run(["ln", "-s", gtktheme.gtk_assets, gtkconfig.gtk_assets])
+    sp.run(["ln", "-s", gtktheme.config_assets,gtkconfig.config_assets])
 
 def get_themes():
     all_themes = []

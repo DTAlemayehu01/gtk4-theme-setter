@@ -2,7 +2,7 @@ To the best of my knowledge GTK4 does not have an easy configuration tool to set
 https://github.com/odziom91/libadwaita-theme-changer/blob/main/libadwaita-tc.py
 since it does not appear to be actively maintained. It's primary improvement is support for `$XDG_DATA_HOME/themes` and `/usr/share/themes` 
 
-Usage as follows:
+Usage as follows (use at your own risk):
 1. Download script and run `./gtk4-theming.py`
 2. Run and select the theme with the correct corresponding path
 3. You can also reset to default with `'--reset'` flag.  
